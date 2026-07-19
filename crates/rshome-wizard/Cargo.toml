@@ -1,0 +1,59 @@
+[package]
+name = "rshome-wizard"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+description = "Wasm-compiled config engine for the rshome browser wizard"
+
+# Skip wasm-opt post-processing. The build host (linux-build-host) cannot reach
+# github.com to download the binaryen wasm-opt binary on demand; we accept
+# a modestly-larger release artifact in exchange for a reproducible build
+# against a locked-down toolchain.
+[package.metadata.wasm-pack.profile.release]
+wasm-opt = false
+
+[lib]
+# cdylib = shared library for wasm-pack; rlib = normal Rust linkage for native use.
+crate-type = ["cdylib", "rlib"]
+
+[features]
+# Enable wasm-bindgen exports when building for browser.
+wasm = ["dep:wasm-bindgen"]
+
+[dependencies]
+rshome-schema = { path = "../rshome-schema", features = ["dag"] }
+rshome-config = { path = "../rshome-config" }
+rshome-codegen = { path = "../rshome-codegen" }
+serde.workspace = true
+serde_json.workspace = true
+base64 = { workspace = true }
+
+# Optional: wasm export surface
+wasm-bindgen = { version = "0.2", optional = true }
+
+[[bin]]
+name = "export-registry"
+path = "src/bin/export_registry.rs"
+
+[dev-dependencies]
+serde_json.workspace = true
+proptest = { workspace = true }
+criterion = { workspace = true }
+
+[[bench]]
+name = "validate_workspace"
+harness = false
+
+[[bench]]
+name = "export_registry"
+harness = false
+
+# M2 / SLO-WIZARD-LATENCY anchor — end-to-end step-transition latency
+# (validate_workspace + per-profile derivation). RC-1 binding criterion
+# (p95 < 1500 ms on M3 Pro × 1000 transitions).
+[[bench]]
+name = "wizard_step"
+harness = false

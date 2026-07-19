@@ -1,0 +1,23 @@
+name: public-sdk-boundary
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+
+jobs:
+  static-contract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: bash scripts/test-public-history.sh
+      - run: bash scripts/test-public-boundary.sh
+      - run: bash scripts/test-sdk-contract.sh
+      - run: bash scripts/verify-public-history.sh --require-history
+      - run: bash scripts/verify-public-boundary.sh
+      - run: bash scripts/verify-sdk-contract.sh
+      - if: startsWith(github.ref, 'refs/tags/')
+        run: bash scripts/verify-sdk-contract.sh --require-published

@@ -1,0 +1,372 @@
+syntax = "proto3";
+package esphomelib;
+
+// ── Handshake ────────────────────────────────────────────────────────────────
+
+message HelloRequest {
+  string client_info = 1;
+  uint32 api_version_major = 2;
+  uint32 api_version_minor = 3;
+}
+
+message HelloResponse {
+  uint32 api_version_major = 1;
+  uint32 api_version_minor = 2;
+  string server_info = 3;
+  string name = 4;
+}
+
+message DisconnectRequest {}
+message DisconnectResponse {}
+
+message PingRequest {}
+message PingResponse {}
+
+// ── Device Info ───────────────────────────────────────────────────────────────
+
+message DeviceInfoRequest {}
+
+message DeviceInfoResponse {
+  bool uses_password = 1;
+  string name = 2;
+  string mac_address = 3;
+  string esphome_version = 4;
+  string compilation_time = 5;
+  string model = 6;
+  bool has_deep_sleep = 7;
+  string project_name = 8;
+  string project_version = 9;
+  uint32 webserver_port = 10;
+  uint32 legacy_bluetooth_proxy_version = 11;
+  uint32 bluetooth_proxy_feature_flags = 12;
+  string manufacturer = 13;
+  string friendly_name = 14;
+}
+
+// ── List Entities ─────────────────────────────────────────────────────────────
+
+message ListEntitiesRequest {}
+message ListEntitiesDoneResponse {}
+
+message ListEntitiesSensorResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string icon = 5;
+  string unit_of_measurement = 6;
+  int32 accuracy_decimals = 7;
+  bool force_update = 8;
+  string device_class = 9;
+  int32 state_class = 10;
+  bool disabled_by_default = 11;
+}
+
+message ListEntitiesBinarySensorResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string device_class = 5;
+  bool is_status_binary_sensor = 6;
+  bool disabled_by_default = 7;
+  string icon = 8;
+}
+
+message ListEntitiesSwitchResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string icon = 5;
+  bool assumed_state = 6;
+  bool disabled_by_default = 7;
+  string device_class = 8;
+}
+
+message ListEntitiesLightResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  repeated int32 supported_color_modes = 5;
+  bool legacy_supports_brightness = 6;
+  bool legacy_supports_rgb = 7;
+  bool legacy_supports_white_value = 8;
+  bool legacy_supports_color_temperature = 9;
+  float min_mireds = 10;
+  float max_mireds = 11;
+  repeated string effects = 12;
+  bool disabled_by_default = 13;
+  string icon = 14;
+}
+
+message ListEntitiesClimateResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  bool supports_current_temperature = 5;
+  bool supports_two_point_target_temperature = 6;
+  repeated int32 supported_modes = 7;
+  float visual_min_temperature = 8;
+  float visual_max_temperature = 9;
+  float visual_target_temperature_step = 10;
+  bool legacy_supports_away = 11;
+  bool supports_action = 12;
+  repeated int32 supported_fan_modes = 13;
+  repeated int32 supported_swing_modes = 14;
+  repeated string supported_custom_fan_modes = 15;
+  repeated int32 supported_presets = 16;
+  repeated string supported_custom_presets = 17;
+  bool disabled_by_default = 18;
+  string icon = 19;
+  float visual_current_temperature_step = 20;
+}
+
+message ListEntitiesFanResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  bool supports_oscillation = 5;
+  bool supports_speed = 6;
+  bool supports_direction = 7;
+  int32 supported_speed_count = 8;
+  bool disabled_by_default = 9;
+  string icon = 10;
+}
+
+message ListEntitiesCoverResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string device_class = 5;
+  bool assumed_state = 6;
+  bool supports_position = 7;
+  bool supports_tilt = 8;
+  bool disabled_by_default = 9;
+  string icon = 10;
+}
+
+message ListEntitiesNumberResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string icon = 5;
+  float min_value = 6;
+  float max_value = 7;
+  float step = 8;
+  bool disabled_by_default = 9;
+  string unit_of_measurement = 10;
+  int32 mode = 11;
+  string device_class = 12;
+}
+
+message ListEntitiesSelectResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string icon = 5;
+  repeated string options = 6;
+  bool disabled_by_default = 7;
+}
+
+message ListEntitiesTextSensorResponse {
+  string object_id = 1;
+  fixed32 key = 2;
+  string name = 3;
+  string unique_id = 4;
+  string icon = 5;
+  bool disabled_by_default = 6;
+}
+
+// ── State Responses ──────────────────────────────────────────────────────────
+
+message SubscribeStatesRequest {}
+
+message SensorStateResponse {
+  fixed32 key = 1;
+  float state = 2;
+  bool missing_state = 3;
+}
+
+message BinarySensorStateResponse {
+  fixed32 key = 1;
+  bool state = 2;
+  bool missing_state = 3;
+}
+
+message SwitchStateResponse {
+  fixed32 key = 1;
+  bool state = 2;
+}
+
+message LightStateResponse {
+  fixed32 key = 1;
+  bool state = 2;
+  float brightness = 3;
+  float color_brightness = 4;
+  float red = 5;
+  float green = 6;
+  float blue = 7;
+  float white = 8;
+  float color_temperature = 9;
+  float cold_white = 10;
+  float warm_white = 11;
+  string effect = 12;
+  int32 color_mode = 13;
+}
+
+message ClimateStateResponse {
+  fixed32 key = 1;
+  int32 mode = 2;
+  float current_temperature = 3;
+  float target_temperature = 4;
+  bool unused_legacy_away = 5;
+  int32 action = 6;
+  int32 fan_mode = 7;
+  int32 swing_mode = 8;
+  string custom_fan_mode = 9;
+  int32 preset = 10;
+  string custom_preset = 11;
+  float target_temperature_low = 12;
+  float target_temperature_high = 13;
+}
+
+message FanStateResponse {
+  fixed32 key = 1;
+  bool state = 2;
+  bool oscillating = 3;
+  int32 speed_level = 4;
+  int32 direction = 5;
+}
+
+message CoverStateResponse {
+  fixed32 key = 1;
+  float legacy_state = 2;
+  float position = 3;
+  float tilt = 4;
+  int32 current_operation = 5;
+}
+
+message NumberStateResponse {
+  fixed32 key = 1;
+  float state = 2;
+  bool missing_state = 3;
+}
+
+message SelectStateResponse {
+  fixed32 key = 1;
+  string state = 2;
+  bool missing_state = 3;
+}
+
+message TextSensorStateResponse {
+  fixed32 key = 1;
+  string state = 2;
+  bool missing_state = 3;
+}
+
+// ── Commands ─────────────────────────────────────────────────────────────────
+
+message SwitchCommandRequest {
+  fixed32 key = 1;
+  bool state = 2;
+}
+
+message LightCommandRequest {
+  fixed32 key = 1;
+  bool has_state = 2;
+  bool state = 3;
+  bool has_brightness = 4;
+  float brightness = 5;
+  bool has_color_mode = 6;
+  int32 color_mode = 7;
+  bool has_color_brightness = 8;
+  float color_brightness = 9;
+  bool has_rgb = 10;
+  float red = 11;
+  float green = 12;
+  float blue = 13;
+  bool has_white = 14;
+  float white = 15;
+  bool has_color_temperature = 16;
+  float color_temperature = 17;
+  bool has_cold_white = 18;
+  float cold_white = 19;
+  bool has_warm_white = 20;
+  float warm_white = 21;
+  bool has_transition_length = 22;
+  uint32 transition_length = 23;
+  bool has_flash_length = 24;
+  uint32 flash_length = 25;
+  bool has_effect = 26;
+  string effect = 27;
+}
+
+message ClimateCommandRequest {
+  fixed32 key = 1;
+  bool has_mode = 2;
+  int32 mode = 3;
+  bool has_target_temperature = 4;
+  float target_temperature = 5;
+  bool has_target_temperature_low = 6;
+  float target_temperature_low = 7;
+  bool has_target_temperature_high = 8;
+  float target_temperature_high = 9;
+  bool unused_has_legacy_away = 10;
+  bool unused_legacy_away = 11;
+  bool has_fan_mode = 12;
+  int32 fan_mode = 13;
+  bool has_swing_mode = 14;
+  int32 swing_mode = 15;
+  bool has_custom_fan_mode = 16;
+  string custom_fan_mode = 17;
+  bool has_preset = 18;
+  int32 preset = 19;
+  bool has_custom_preset = 20;
+  string custom_preset = 21;
+}
+
+message FanCommandRequest {
+  fixed32 key = 1;
+  bool has_state = 2;
+  bool state = 3;
+  bool has_speed = 4;
+  int32 speed = 5;
+  bool has_oscillating = 6;
+  bool oscillating = 7;
+  bool has_direction = 8;
+  int32 direction = 9;
+  bool has_speed_level = 10;
+  int32 speed_level = 11;
+}
+
+message CoverCommandRequest {
+  fixed32 key = 1;
+  bool has_legacy_command = 2;
+  int32 legacy_command = 3;
+  bool has_position = 4;
+  float position = 5;
+  bool has_tilt = 6;
+  float tilt = 7;
+  bool stop = 8;
+}
+
+message NumberCommandRequest {
+  fixed32 key = 1;
+  float state = 2;
+}
+
+message SelectCommandRequest {
+  fixed32 key = 1;
+  string state = 2;
+}
+
+message ButtonCommandRequest {
+  fixed32 key = 1;
+}

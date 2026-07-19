@@ -1,0 +1,37 @@
+package rshome:integration@0.1.0;
+
+world integration {
+    // ── Host imports — Rust host provides, WASM module calls ────────────────
+
+    // Domain declaration (call during setup to register an extension domain).
+    // `manifest` is a JSON-encoded DomainSpec. Returns Ok on success or an
+    // error string describing the validation failure.
+    import declare-domain: func(manifest: list<u8>) -> result<_, string>;
+
+    // ── Internal ABI — raw bridge imports ───────────────────────────────────
+    // Prefer domain-aware wrappers in the guest SDK over calling these directly.
+    import register-entity: func(platform: string, unique-id: string, config: list<u8>) -> u64;
+    import update-entity-state: func(entity-handle: u64, state: list<u8>) -> result<_, string>;
+    import get-entity-state: func(entity-id: string) -> option<list<u8>>;
+    import register-device: func(name: string, model: option<string>, manufacturer: option<string>, unique-id: string) -> u64;
+    import register-service: func(domain: string, name: string, schema: list<u8>) -> u64;
+    import create-coordinator: func(name: string, update-interval-ms: u64) -> u64;
+    import fire-event: func(event-type: string, data: list<u8>);
+    import subscribe-discovery: func(protocol: string) -> u64;
+    import log: func(level: u8, message: string);
+
+    // ── Guest exports — WASM module implements, host calls ──────────────────
+    export setup: func(config: list<tuple<string, string>>) -> result<_, string>;
+    export teardown: func();
+    export config-flow-step: func(
+        step-id: string,
+        user-input: option<list<tuple<string, string>>>
+    ) -> result<list<u8>, string>;
+    export coordinator-update: func(coordinator-handle: u64) -> result<list<u8>, string>;
+    export get-diagnostics: func() -> list<tuple<string, string>>;
+    export repair-step: func(
+        repair-id: string,
+        step-id: string,
+        user-input: option<list<tuple<string, string>>>
+    ) -> result<list<u8>, string>;
+}

@@ -1,0 +1,102 @@
+# nanopb options for ESPHome Native API (rshome trimmed proto)
+# Eliminates pb_callback_t dynamic allocation on ESP32.
+# See https://jpa.kapsi.fi/nanopb/docs/concepts.html#modifying-generator-behaviour
+# Package: esphomelib — all names must be fully qualified.
+
+# ── Handshake ──
+esphomelib.HelloRequest.client_info                              max_size:64
+esphomelib.HelloResponse.server_info                             max_size:32
+esphomelib.HelloResponse.name                                    max_size:32
+
+# ── Device Info ──
+esphomelib.DeviceInfoResponse.name                               max_size:32
+esphomelib.DeviceInfoResponse.mac_address                        max_size:18
+esphomelib.DeviceInfoResponse.esphome_version                    max_size:16
+esphomelib.DeviceInfoResponse.compilation_time                   max_size:32
+esphomelib.DeviceInfoResponse.model                              max_size:16
+esphomelib.DeviceInfoResponse.project_name                       max_size:32
+esphomelib.DeviceInfoResponse.project_version                    max_size:16
+esphomelib.DeviceInfoResponse.manufacturer                       max_size:32
+esphomelib.DeviceInfoResponse.friendly_name                      max_size:64
+
+# ── ListEntities ──
+# Common: object_id/32, name/64, unique_id/48, icon/32
+
+esphomelib.ListEntitiesSensorResponse.object_id                  max_size:32
+esphomelib.ListEntitiesSensorResponse.name                       max_size:64
+esphomelib.ListEntitiesSensorResponse.unique_id                  max_size:48
+esphomelib.ListEntitiesSensorResponse.icon                       max_size:32
+esphomelib.ListEntitiesSensorResponse.unit_of_measurement        max_size:16
+esphomelib.ListEntitiesSensorResponse.device_class               max_size:32
+
+esphomelib.ListEntitiesBinarySensorResponse.object_id            max_size:32
+esphomelib.ListEntitiesBinarySensorResponse.name                 max_size:64
+esphomelib.ListEntitiesBinarySensorResponse.unique_id            max_size:48
+esphomelib.ListEntitiesBinarySensorResponse.icon                 max_size:32
+esphomelib.ListEntitiesBinarySensorResponse.device_class         max_size:32
+
+esphomelib.ListEntitiesSwitchResponse.object_id                  max_size:32
+esphomelib.ListEntitiesSwitchResponse.name                       max_size:64
+esphomelib.ListEntitiesSwitchResponse.unique_id                  max_size:48
+esphomelib.ListEntitiesSwitchResponse.icon                       max_size:32
+esphomelib.ListEntitiesSwitchResponse.device_class               max_size:32
+
+esphomelib.ListEntitiesLightResponse.object_id                   max_size:32
+esphomelib.ListEntitiesLightResponse.name                        max_size:64
+esphomelib.ListEntitiesLightResponse.unique_id                   max_size:48
+esphomelib.ListEntitiesLightResponse.icon                        max_size:32
+esphomelib.ListEntitiesLightResponse.effects                     max_count:8  max_size:32
+esphomelib.ListEntitiesLightResponse.supported_color_modes       max_count:8
+
+esphomelib.ListEntitiesClimateResponse.object_id                 max_size:32
+esphomelib.ListEntitiesClimateResponse.name                      max_size:64
+esphomelib.ListEntitiesClimateResponse.unique_id                 max_size:48
+esphomelib.ListEntitiesClimateResponse.icon                      max_size:32
+esphomelib.ListEntitiesClimateResponse.supported_modes           max_count:8
+esphomelib.ListEntitiesClimateResponse.supported_fan_modes       max_count:8
+esphomelib.ListEntitiesClimateResponse.supported_swing_modes     max_count:4
+esphomelib.ListEntitiesClimateResponse.supported_custom_fan_modes   max_count:4  max_size:16
+esphomelib.ListEntitiesClimateResponse.supported_presets         max_count:8
+esphomelib.ListEntitiesClimateResponse.supported_custom_presets  max_count:4  max_size:16
+
+esphomelib.ListEntitiesFanResponse.object_id                     max_size:32
+esphomelib.ListEntitiesFanResponse.name                          max_size:64
+esphomelib.ListEntitiesFanResponse.unique_id                     max_size:48
+esphomelib.ListEntitiesFanResponse.icon                          max_size:32
+
+esphomelib.ListEntitiesCoverResponse.object_id                   max_size:32
+esphomelib.ListEntitiesCoverResponse.name                        max_size:64
+esphomelib.ListEntitiesCoverResponse.unique_id                   max_size:48
+esphomelib.ListEntitiesCoverResponse.icon                        max_size:32
+esphomelib.ListEntitiesCoverResponse.device_class                max_size:32
+
+esphomelib.ListEntitiesNumberResponse.object_id                  max_size:32
+esphomelib.ListEntitiesNumberResponse.name                       max_size:64
+esphomelib.ListEntitiesNumberResponse.unique_id                  max_size:48
+esphomelib.ListEntitiesNumberResponse.icon                       max_size:32
+esphomelib.ListEntitiesNumberResponse.unit_of_measurement        max_size:16
+esphomelib.ListEntitiesNumberResponse.device_class               max_size:32
+
+esphomelib.ListEntitiesSelectResponse.object_id                  max_size:32
+esphomelib.ListEntitiesSelectResponse.name                       max_size:64
+esphomelib.ListEntitiesSelectResponse.unique_id                  max_size:48
+esphomelib.ListEntitiesSelectResponse.icon                       max_size:32
+esphomelib.ListEntitiesSelectResponse.options                    max_count:16  max_size:32
+
+esphomelib.ListEntitiesTextSensorResponse.object_id              max_size:32
+esphomelib.ListEntitiesTextSensorResponse.name                   max_size:64
+esphomelib.ListEntitiesTextSensorResponse.unique_id              max_size:48
+esphomelib.ListEntitiesTextSensorResponse.icon                   max_size:32
+
+# ── State Responses ──
+esphomelib.LightStateResponse.effect                             max_size:32
+esphomelib.ClimateStateResponse.custom_fan_mode                  max_size:16
+esphomelib.ClimateStateResponse.custom_preset                    max_size:16
+esphomelib.SelectStateResponse.state                             max_size:64
+esphomelib.TextSensorStateResponse.state                         max_size:128
+
+# ── Commands ──
+esphomelib.LightCommandRequest.effect                            max_size:32
+esphomelib.ClimateCommandRequest.custom_fan_mode                 max_size:16
+esphomelib.ClimateCommandRequest.custom_preset                   max_size:16
+esphomelib.SelectCommandRequest.state                            max_size:64

@@ -1,0 +1,37 @@
+[package]
+name = "rshome-mcp"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish.workspace = true
+description = "MCP server exposing rshome-ha runtime as 18 AI-accessible tools"
+
+[[bin]]
+name = "rshome-ha-mcp"
+path = "src/bin/rshome-ha-mcp.rs"
+
+[dependencies]
+rshome-actor = { path = "../rshome-actor" }
+rshome-entity = { path = "../rshome-entity" }
+rshome-svc = { path = "../rshome-svc" }
+rshome-state = { path = "../rshome-state" }
+rshome-native-api = { path = "../rshome-native-api" }
+rshome-wasm-host = { path = "../rshome-wasm-host" }
+rshome-wf = { path = "../rshome-wf" }
+rshome-device-link = { path = "../rshome-device-link" }
+async-trait.workspace = true
+rmcp = { workspace = true, features = ["client"] }
+schemars.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tokio = { workspace = true, features = ["signal"] }
+tracing.workspace = true
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+parking_lot.workspace = true
+uuid = { version = "1", features = ["v4"] }
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }

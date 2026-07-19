@@ -1,0 +1,56 @@
+[
+  {
+    "best_for": "Teaching, prototyping, indoor short-range, custom protocols.",
+    "best_for_zh": "教学、原型验证、室内短距、自定义协议。",
+    "description": "ESP32 family + ESP-NOW or WiFi + H-bridge + MJPEG-over-HTTP.",
+    "description_zh": "ESP32 系列 + ESP-NOW/WiFi + H 桥驱动 + MJPEG HTTP 视频。",
+    "id": "diy_lowcost",
+    "label": "DIY / Low-cost",
+    "label_zh": "DIY 低成本",
+    "role_compatibility": {
+      "all_in_one_cam": "supported",
+      "control_board": "supported",
+      "control_telemetry_board": "supported",
+      "receiver_direct_drive": "warning",
+      "remote_control_tx": "supported",
+      "smartphone_gateway": "supported",
+      "video_board": "hidden"
+    }
+  },
+  {
+    "best_for": "Racing, long-range, professional feel, control/video decoupled.",
+    "best_for_zh": "竞速、长距离、专业手感，控制与图传解耦。",
+    "description": "ELRS CRSF + brushless ESC (PWM/DShot) + analog 5.8GHz or DJI O4.",
+    "description_zh": "ELRS CRSF + 无刷电调(PWM/DShot) + 模拟 5.8GHz 或 DJI O4 数字图传。",
+    "id": "standard_fpv",
+    "label": "Standard FPV",
+    "label_zh": "标准 FPV",
+    "role_compatibility": {
+      "all_in_one_cam": "hidden",
+      "control_board": "supported",
+      "control_telemetry_board": "warning",
+      "receiver_direct_drive": "warning",
+      "remote_control_tx": "supported",
+      "smartphone_gateway": "supported",
+      "video_board": "supported"
+    }
+  },
+  {
+    "best_for": "AI vision, research, web remote, kept MCU safety layer.",
+    "best_for_zh": "AI 视觉、研究、Web 远程控制，保留 MCU 安全层。",
+    "description": "ELRS → MCU + SBC (Pi/Jetson) + UART/CAN inter-board + WebRTC/ROS.",
+    "description_zh": "ELRS→MCU + SBC(Pi/Jetson) + 板间 UART/CAN + WebRTC/ROS。",
+    "id": "research_hybrid",
+    "label": "Research / Hybrid",
+    "label_zh": "研究/混合",
+    "role_compatibility": {
+      "all_in_one_cam": "hidden",
+      "control_board": "supported",
+      "control_telemetry_board": "supported",
+      "receiver_direct_drive": "hidden",
+      "remote_control_tx": "supported",
+      "smartphone_gateway": "supported",
+      "video_board": "supported"
+    }
+  }
+]

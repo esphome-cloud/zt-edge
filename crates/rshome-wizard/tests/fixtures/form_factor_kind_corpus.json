@@ -1,0 +1,578 @@
+[
+  {
+    "wire_name": "wheeled_2wd_diff",
+    "rust_variant": "Wheeled2wdDiff",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "2WD differential",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "wheeled_4wd_diff",
+    "rust_variant": "Wheeled4wdDiff",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "4WD differential",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "wheeled_4wd_ackermann",
+    "rust_variant": "Wheeled4wdAckermann",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "4WD Ackermann",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "wheeled_6wd",
+    "rust_variant": "Wheeled6wd",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "6WD rover",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "mecanum_4wheel",
+    "rust_variant": "Mecanum4wheel",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Mecanum (4 wheels)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "omniwheel_3wheel",
+    "rust_variant": "Omniwheel3wheel",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Omni-wheel (3 wheels)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "omniwheel_4wheel",
+    "rust_variant": "Omniwheel4wheel",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Omni-wheel (4 wheels)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "bigfoot_monster_truck",
+    "rust_variant": "BigfootMonsterTruck",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Monster truck",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "bigfoot_rock_crawler",
+    "rust_variant": "BigfootRockCrawler",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Rock crawler (4-wheel-steer)",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "atv_offroad",
+    "rust_variant": "AtvOffroad",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "ATV / offroad",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "drift_rally_racer",
+    "rust_variant": "DriftRallyRacer",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Drift / rally racer",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "brushless_esc_dshot"
+  },
+  {
+    "wire_name": "tracked_skidsteer",
+    "rust_variant": "TrackedSkidsteer",
+    "family_wire": "ground_wheeled_reactive",
+    "family_variant": "GroundWheeledReactive",
+    "label": "Tracked skid-steer (tank)",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "balance_2wheel",
+    "rust_variant": "Balance2wheel",
+    "family_wire": "ground_wheeled_balancing",
+    "family_variant": "GroundWheeledBalancing",
+    "label": "Self-balancing 2-wheel",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "balance_unicycle",
+    "rust_variant": "BalanceUnicycle",
+    "family_wire": "ground_wheeled_balancing",
+    "family_variant": "GroundWheeledBalancing",
+    "label": "Unicycle (self-balancing)",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "ballbot",
+    "rust_variant": "Ballbot",
+    "family_wire": "ground_wheeled_balancing",
+    "family_variant": "GroundWheeledBalancing",
+    "label": "Ballbot",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "biped_humanoid",
+    "rust_variant": "BipedHumanoid",
+    "family_wire": "ground_legged",
+    "family_variant": "GroundLegged",
+    "label": "Biped humanoid",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "quadruped",
+    "rust_variant": "Quadruped",
+    "family_wire": "ground_legged",
+    "family_variant": "GroundLegged",
+    "label": "Quadruped",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "hexapod",
+    "rust_variant": "Hexapod",
+    "family_wire": "ground_legged",
+    "family_variant": "GroundLegged",
+    "label": "Hexapod",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "octopod",
+    "rust_variant": "Octopod",
+    "family_wire": "ground_legged",
+    "family_variant": "GroundLegged",
+    "label": "Octopod",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "boat_single_rudder",
+    "rust_variant": "BoatSingleRudder",
+    "family_wire": "aquatic_surface",
+    "family_variant": "AquaticSurface",
+    "label": "Boat (1 prop + rudder)",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "boat_twin_prop_diff",
+    "rust_variant": "BoatTwinPropDiff",
+    "family_wire": "aquatic_surface",
+    "family_variant": "AquaticSurface",
+    "label": "Twin-prop boat (differential)",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "hovercraft",
+    "rust_variant": "Hovercraft",
+    "family_wire": "aquatic_surface",
+    "family_variant": "AquaticSurface",
+    "label": "Hovercraft",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "hydrofoil",
+    "rust_variant": "Hydrofoil",
+    "family_wire": "aquatic_surface",
+    "family_variant": "AquaticSurface",
+    "label": "Hydrofoil",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "fixedwing_surfaces"
+  },
+  {
+    "wire_name": "sailboat",
+    "rust_variant": "Sailboat",
+    "family_wire": "aquatic_surface",
+    "family_variant": "AquaticSurface",
+    "label": "Autonomous sailboat",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "steering_servo"
+  },
+  {
+    "wire_name": "rov_4thruster",
+    "rust_variant": "Rov4thruster",
+    "family_wire": "aquatic_submerged",
+    "family_variant": "AquaticSubmerged",
+    "label": "ROV (4 thrusters)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "thruster_vector"
+  },
+  {
+    "wire_name": "rov_6thruster",
+    "rust_variant": "Rov6thruster",
+    "family_wire": "aquatic_submerged",
+    "family_variant": "AquaticSubmerged",
+    "label": "ROV (6 thrusters, vectored)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "thruster_vector"
+  },
+  {
+    "wire_name": "auv_torpedo",
+    "rust_variant": "AuvTorpedo",
+    "family_wire": "aquatic_submerged",
+    "family_variant": "AquaticSubmerged",
+    "label": "AUV torpedo",
+    "min_sensor_tier_wire": "research",
+    "actuator_family_wire": "thruster_vector"
+  },
+  {
+    "wire_name": "quadcopter_x",
+    "rust_variant": "QuadcopterX",
+    "family_wire": "aerial_multirotor",
+    "family_variant": "AerialMultirotor",
+    "label": "Quadcopter X",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "quad_mix"
+  },
+  {
+    "wire_name": "quadcopter_plus",
+    "rust_variant": "QuadcopterPlus",
+    "family_wire": "aerial_multirotor",
+    "family_variant": "AerialMultirotor",
+    "label": "Quadcopter +",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "quad_mix"
+  },
+  {
+    "wire_name": "tricopter",
+    "rust_variant": "Tricopter",
+    "family_wire": "aerial_multirotor",
+    "family_variant": "AerialMultirotor",
+    "label": "Tricopter",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "quad_mix"
+  },
+  {
+    "wire_name": "hexacopter",
+    "rust_variant": "Hexacopter",
+    "family_wire": "aerial_multirotor",
+    "family_variant": "AerialMultirotor",
+    "label": "Hexacopter",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "quad_mix"
+  },
+  {
+    "wire_name": "octocopter_x",
+    "rust_variant": "OctocopterX",
+    "family_wire": "aerial_multirotor",
+    "family_variant": "AerialMultirotor",
+    "label": "Octocopter X",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "quad_mix"
+  },
+  {
+    "wire_name": "octocopter_coax",
+    "rust_variant": "OctocopterCoax",
+    "family_wire": "aerial_multirotor",
+    "family_variant": "AerialMultirotor",
+    "label": "Octocopter coaxial",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "quad_mix"
+  },
+  {
+    "wire_name": "heli_single_rotor",
+    "rust_variant": "HeliSingleRotor",
+    "family_wire": "aerial_helicopter",
+    "family_variant": "AerialHelicopter",
+    "label": "Helicopter (single rotor)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "heli_swashplate"
+  },
+  {
+    "wire_name": "heli_coaxial",
+    "rust_variant": "HeliCoaxial",
+    "family_wire": "aerial_helicopter",
+    "family_variant": "AerialHelicopter",
+    "label": "Coaxial helicopter",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "heli_swashplate"
+  },
+  {
+    "wire_name": "heli_tandem",
+    "rust_variant": "HeliTandem",
+    "family_wire": "aerial_helicopter",
+    "family_variant": "AerialHelicopter",
+    "label": "Tandem helicopter",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "heli_swashplate"
+  },
+  {
+    "wire_name": "fixedwing_standard",
+    "rust_variant": "FixedwingStandard",
+    "family_wire": "aerial_fixedwing",
+    "family_variant": "AerialFixedwing",
+    "label": "Fixed-wing (standard)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "fixedwing_surfaces"
+  },
+  {
+    "wire_name": "fixedwing_vtail",
+    "rust_variant": "FixedwingVtail",
+    "family_wire": "aerial_fixedwing",
+    "family_variant": "AerialFixedwing",
+    "label": "Fixed-wing V-tail",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "fixedwing_surfaces"
+  },
+  {
+    "wire_name": "flying_wing",
+    "rust_variant": "FlyingWing",
+    "family_wire": "aerial_fixedwing",
+    "family_variant": "AerialFixedwing",
+    "label": "Flying wing",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "fixedwing_surfaces"
+  },
+  {
+    "wire_name": "glider",
+    "rust_variant": "Glider",
+    "family_wire": "aerial_fixedwing",
+    "family_variant": "AerialFixedwing",
+    "label": "Glider",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "fixedwing_surfaces"
+  },
+  {
+    "wire_name": "vtol_tailsitter",
+    "rust_variant": "VtolTailsitter",
+    "family_wire": "aerial_vtol",
+    "family_variant": "AerialVtol",
+    "label": "Tail-sitter VTOL",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "vtol_transition"
+  },
+  {
+    "wire_name": "vtol_tiltrotor",
+    "rust_variant": "VtolTiltrotor",
+    "family_wire": "aerial_vtol",
+    "family_variant": "AerialVtol",
+    "label": "Tilt-rotor VTOL",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "vtol_transition"
+  },
+  {
+    "wire_name": "vtol_quadplane",
+    "rust_variant": "VtolQuadplane",
+    "family_wire": "aerial_vtol",
+    "family_variant": "AerialVtol",
+    "label": "Quadplane VTOL",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "vtol_transition"
+  },
+  {
+    "wire_name": "vtol_bicopter",
+    "rust_variant": "VtolBicopter",
+    "family_wire": "aerial_vtol",
+    "family_variant": "AerialVtol",
+    "label": "Bicopter VTOL",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "vtol_transition"
+  },
+  {
+    "wire_name": "lta_blimp",
+    "rust_variant": "LtaBlimp",
+    "family_wire": "lighter_than_air",
+    "family_variant": "LighterThanAir",
+    "label": "Blimp",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "thruster_vector"
+  },
+  {
+    "wire_name": "lta_airship",
+    "rust_variant": "LtaAirship",
+    "family_wire": "lighter_than_air",
+    "family_variant": "LighterThanAir",
+    "label": "Airship (rigid/semi-rigid)",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "fixedwing_surfaces"
+  },
+  {
+    "wire_name": "snake_serpentine",
+    "rust_variant": "SnakeSerpentine",
+    "family_wire": "articulated",
+    "family_variant": "Articulated",
+    "label": "Snake / serpentine",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "tendon_cable"
+  },
+  {
+    "wire_name": "worm_modular",
+    "rust_variant": "WormModular",
+    "family_wire": "articulated",
+    "family_variant": "Articulated",
+    "label": "Modular worm",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "pneumatic_chamber"
+  },
+  {
+    "wire_name": "rolling_ball",
+    "rust_variant": "RollingBall",
+    "family_wire": "articulated",
+    "family_variant": "Articulated",
+    "label": "Rolling ball",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "tendon_cable"
+  },
+  {
+    "wire_name": "autonomous_mower",
+    "rust_variant": "AutonomousMower",
+    "family_wire": "agricultural",
+    "family_variant": "Agricultural",
+    "label": "Autonomous mower",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "sprayer_spot",
+    "rust_variant": "SprayerSpot",
+    "family_wire": "agricultural",
+    "family_variant": "Agricultural",
+    "label": "Spot sprayer",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "mixed_ackermann"
+  },
+  {
+    "wire_name": "tractor_towed_implement",
+    "rust_variant": "TractorTowedImplement",
+    "family_wire": "agricultural",
+    "family_variant": "Agricultural",
+    "label": "Tractor + implement (full-size)",
+    "min_sensor_tier_wire": "research",
+    "actuator_family_wire": "hydraulic_joint"
+  },
+  {
+    "wire_name": "excavator_arm",
+    "rust_variant": "ExcavatorArm",
+    "family_wire": "construction",
+    "family_variant": "Construction",
+    "label": "Excavator arm",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": "hydraulic_joint"
+  },
+  {
+    "wire_name": "crane_boom",
+    "rust_variant": "CraneBoom",
+    "family_wire": "construction",
+    "family_variant": "Construction",
+    "label": "Crane boom",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "hydraulic_joint"
+  },
+  {
+    "wire_name": "skid_steer_loader",
+    "rust_variant": "SkidSteerLoader",
+    "family_wire": "construction",
+    "family_variant": "Construction",
+    "label": "Skid-steer loader",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "hydraulic_joint"
+  },
+  {
+    "wire_name": "wall_climbing_suction",
+    "rust_variant": "WallClimbingSuction",
+    "family_wire": "climbing",
+    "family_variant": "Climbing",
+    "label": "Wall climber (suction)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "pneumatic_chamber"
+  },
+  {
+    "wire_name": "cable_climbing",
+    "rust_variant": "CableClimbing",
+    "family_wire": "climbing",
+    "family_variant": "Climbing",
+    "label": "Cable climber",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "mixed_diff_drive"
+  },
+  {
+    "wire_name": "magnetic_climber",
+    "rust_variant": "MagneticClimber",
+    "family_wire": "climbing",
+    "family_variant": "Climbing",
+    "label": "Magnetic climber",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "tendon_cable"
+  },
+  {
+    "wire_name": "amphibious_wheels_plus_prop",
+    "rust_variant": "AmphibiousWheelsPlusProp",
+    "family_wire": "amphibious",
+    "family_variant": "Amphibious",
+    "label": "Amphibious (wheels + prop)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "soft_gripper",
+    "rust_variant": "SoftGripper",
+    "family_wire": "soft_continuum",
+    "family_variant": "SoftContinuum",
+    "label": "Soft gripper",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": "pneumatic_chamber"
+  },
+  {
+    "wire_name": "tentacle_arm",
+    "rust_variant": "TentacleArm",
+    "family_wire": "soft_continuum",
+    "family_variant": "SoftContinuum",
+    "label": "Tentacle arm (continuum)",
+    "min_sensor_tier_wire": "standard_9ax",
+    "actuator_family_wire": "tendon_cable"
+  },
+  {
+    "wire_name": "modular_cubelets",
+    "rust_variant": "ModularCubelets",
+    "family_wire": "educational_modular",
+    "family_variant": "EducationalModular",
+    "label": "Modular cubelets",
+    "min_sensor_tier_wire": "basic_6ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "jumping_robot",
+    "rust_variant": "JumpingRobot",
+    "family_wire": "jumping_hopping",
+    "family_variant": "JumpingHopping",
+    "label": "Jumping robot",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": null
+  },
+  {
+    "wire_name": "grasshopper",
+    "rust_variant": "Grasshopper",
+    "family_wire": "jumping_hopping",
+    "family_variant": "JumpingHopping",
+    "label": "Grasshopper",
+    "min_sensor_tier_wire": "advanced_10ax",
+    "actuator_family_wire": null
+  }
+]

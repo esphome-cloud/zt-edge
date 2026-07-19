@@ -1,0 +1,536 @@
+[
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 0",
+    "case": "modern_000",
+    "family": "betaflight"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 1",
+    "case": "modern_001"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 2",
+    "case": "modern_002"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 3",
+    "case": "modern_003",
+    "family": "esp_drone"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 4",
+    "case": "modern_004"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 5",
+    "case": "modern_005"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 6",
+    "case": "modern_006",
+    "family": "ardupilot"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 7",
+    "case": "modern_007"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 8",
+    "case": "modern_008"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 9",
+    "case": "modern_009",
+    "family": "custom"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 10",
+    "case": "modern_010"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 11",
+    "case": "modern_011"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 12",
+    "case": "modern_012",
+    "family": "px4"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 13",
+    "case": "modern_013"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 14",
+    "case": "modern_014"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 15",
+    "case": "modern_015",
+    "family": "betaflight"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 16",
+    "case": "modern_016"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 17",
+    "case": "modern_017"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 18",
+    "case": "modern_018",
+    "family": "esp_drone"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 19",
+    "case": "modern_019"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 20",
+    "case": "modern_020"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 21",
+    "case": "modern_021",
+    "family": "ardupilot"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 22",
+    "case": "modern_022"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 23",
+    "case": "modern_023"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 24",
+    "case": "modern_024",
+    "family": "custom"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 25",
+    "case": "modern_025"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 26",
+    "case": "modern_026"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 27",
+    "case": "modern_027",
+    "family": "px4"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 28",
+    "case": "modern_028"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 29",
+    "case": "modern_029"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 30",
+    "case": "modern_030",
+    "family": "betaflight"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 31",
+    "case": "modern_031"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 32",
+    "case": "modern_032"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 33",
+    "case": "modern_033",
+    "family": "esp_drone"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 34",
+    "case": "modern_034"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 35",
+    "case": "modern_035"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 36",
+    "case": "modern_036",
+    "family": "ardupilot"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 37",
+    "case": "modern_037"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 38",
+    "case": "modern_038"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 39",
+    "case": "modern_039",
+    "family": "custom"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 40",
+    "case": "modern_040"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 41",
+    "case": "modern_041"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 42",
+    "case": "modern_042",
+    "family": "px4"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 43",
+    "case": "modern_043"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 44",
+    "case": "modern_044"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 45",
+    "case": "modern_045",
+    "family": "betaflight"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 46",
+    "case": "modern_046"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 47",
+    "case": "modern_047"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 48",
+    "case": "modern_048",
+    "family": "esp_drone"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 49",
+    "case": "modern_049"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 50",
+    "case": "modern_050"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 51",
+    "case": "modern_051",
+    "family": "ardupilot"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 52",
+    "case": "modern_052"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 53",
+    "case": "modern_053"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 54",
+    "case": "modern_054",
+    "family": "custom"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 55",
+    "case": "modern_055"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 56",
+    "case": "modern_056"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 57",
+    "case": "modern_057",
+    "family": "px4"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 58",
+    "case": "modern_058"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 59",
+    "case": "modern_059"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 60",
+    "case": "modern_060",
+    "family": "betaflight"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 61",
+    "case": "modern_061"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 62",
+    "case": "modern_062"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 63",
+    "case": "modern_063",
+    "family": "esp_drone"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 64",
+    "case": "modern_064"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 65",
+    "case": "modern_065"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 66",
+    "case": "modern_066",
+    "family": "ardupilot"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 67",
+    "case": "modern_067"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 68",
+    "case": "modern_068"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 69",
+    "case": "modern_069",
+    "family": "custom"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 70",
+    "case": "modern_070"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 71",
+    "case": "modern_071"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 72",
+    "case": "modern_072",
+    "family": "px4"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 73",
+    "case": "modern_073"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 74",
+    "case": "modern_074"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 75",
+    "case": "modern_075",
+    "family": "betaflight"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 76",
+    "case": "modern_076"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 77",
+    "case": "modern_077"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 78",
+    "case": "modern_078",
+    "family": "esp_drone"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 79",
+    "case": "modern_079"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 80",
+    "case": "modern_080"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 81",
+    "case": "modern_081",
+    "family": "ardupilot"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 82",
+    "case": "modern_082"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 83",
+    "case": "modern_083"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 84",
+    "case": "modern_084",
+    "family": "custom"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 85",
+    "case": "modern_085"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 86",
+    "case": "modern_086"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 87",
+    "case": "modern_087",
+    "family": "px4"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 88",
+    "case": "modern_088"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 89",
+    "case": "modern_089"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "label": "Modern 90",
+    "case": "modern_090",
+    "family": "betaflight"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "label": "Modern 91",
+    "case": "modern_091"
+  },
+  {
+    "id": "direct_control_solution",
+    "label": "Modern 92",
+    "case": "modern_092"
+  },
+  {
+    "id": "marine_surface_solution",
+    "label": "Modern 93",
+    "case": "modern_093",
+    "family": "esp_drone"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "label": "Modern 94",
+    "case": "modern_094"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "label": "Modern 95",
+    "case": "modern_095"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "label": "Modern 96",
+    "case": "modern_096",
+    "family": "ardupilot"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "label": "Modern 97",
+    "case": "modern_097"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "label": "Modern 98",
+    "case": "modern_098"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "label": "Modern 99",
+    "case": "modern_099",
+    "family": "custom"
+  }
+]

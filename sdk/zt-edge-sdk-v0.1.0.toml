@@ -1,0 +1,33 @@
+schema_version = 1
+release_line = "v0.1"
+git_url = "https://github.com/esphome-cloud/zt-edge.git"
+git_revision = "UNPUBLISHED"
+revision_kind = "unpublished"
+
+[[rust_crate]]
+package = "rshome-schema"
+features = ["dag"]
+
+[[rust_crate]]
+package = "rshome-config"
+
+[[rust_crate]]
+package = "rshome-codegen"
+
+[[rust_crate]]
+package = "rshome-mcp"
+
+[[rust_crate]]
+package = "rshome-actor"
+
+[[rust_crate]]
+package = "rshome-entity"
+
+[[rust_crate]]
+package = "rshome-state"
+
+[[rust_crate]]
+package = "rshome-svc"
+
+[[rust_crate]]
+package = "rshome-wizard"

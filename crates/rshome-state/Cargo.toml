@@ -1,0 +1,25 @@
+[package]
+name = "rshome-state"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+publish = false
+
+[dependencies]
+rshome-actor = { path = "../rshome-actor" }
+rshome-entity = { path = "../rshome-entity" }
+serde = { workspace = true }
+serde_json = { workspace = true }
+thiserror = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+parking_lot = { workspace = true }
+redb = { workspace = true, optional = true }
+
+[features]
+history = ["dep:redb"]
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }

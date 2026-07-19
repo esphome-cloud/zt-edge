@@ -1,0 +1,64 @@
+{
+  "profiles": [
+    {
+      "label": "handheld-tx-01",
+      "chip_target": "esp32_c6",
+      "selected_solution_id": "elrs_tx_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "quad-rx-01",
+      "chip_target": "esp32_s3",
+      "selected_solution_id": "quad_stabilizer_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "fixedwing-rx-01",
+      "chip_target": "esp32_s3",
+      "selected_solution_id": "fixedwing_stabilizer_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "gcs-laptop-01",
+      "chip_target": "esp32_s3",
+      "selected_solution_id": "mavlink_groundstation_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "rover-01",
+      "chip_target": "esp32_c6",
+      "selected_solution_id": "direct_control_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "rover-02-with-telemetry",
+      "chip_target": "esp32_c6",
+      "selected_solution_id": "direct_control_telemetry_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "fpv-cam-01",
+      "chip_target": "esp32_s3",
+      "selected_solution_id": "video_board_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "sbc-bridge-01",
+      "chip_target": "esp32_s3",
+      "selected_solution_id": "mcu_sbc_bridge_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "marine-boat-01",
+      "chip_target": "esp32_c6",
+      "selected_solution_id": "marine_surface_solution",
+      "parameter_values": {}
+    },
+    {
+      "label": "handheld-tx-02-backup",
+      "chip_target": "esp32_c6",
+      "selected_solution_id": "remote_control_tx_solution",
+      "parameter_values": {}
+    }
+  ]
+}

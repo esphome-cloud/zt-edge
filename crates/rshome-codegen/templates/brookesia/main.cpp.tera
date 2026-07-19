@@ -1,0 +1,10 @@
+#include "esp_log.h"
+#include "brookesia/service_manager.hpp"
+#include "app_composition.h"
+
+extern "C" void app_main(void) {
+    ESP_LOGI("rshome", "Starting {{ project_name }}");
+    auto &services = esp_brookesia::service::ServiceManager::get_instance();
+    services.start();
+    app_composition_init();
+}

@@ -1,0 +1,33 @@
+[
+  {
+    "solution_id": "mavlink_groundstation_solution",
+    "expected_parameter_ids": [
+      "wifi_ssid",
+      "wifi_password",
+      "mavlink_udp_port",
+      "telemetry_rate_hz"
+    ],
+    "expected_min_count": 4
+  },
+  {
+    "solution_id": "video_board_sbc_companion_solution",
+    "expected_parameter_ids": [
+      "wifi_ssid",
+      "wifi_password",
+      "mavlink_udp_port",
+      "telemetry_rate_hz"
+    ],
+    "expected_min_count": 4
+  },
+  {
+    "solution_id": "web_ui_groundstation_solution",
+    "expected_parameter_ids": [
+      "wifi_ssid",
+      "wifi_password",
+      "mavlink_udp_port",
+      "telemetry_rate_hz",
+      "webrtc_signaling_url"
+    ],
+    "expected_min_count": 5
+  }
+]

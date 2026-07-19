@@ -1,0 +1,6 @@
+#include "app_composition.h"
+#include "esp_log.h"
+
+void app_composition_init(void) {
+    ESP_LOGI("rshome", "Composition initialized for {{ project_name }}");
+}

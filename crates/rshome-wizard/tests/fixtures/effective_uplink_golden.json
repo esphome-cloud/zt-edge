@@ -1,0 +1,762 @@
+[
+  {
+    "solution_id": "agri_tool_dispatch_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "amphibious_transition_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "analog_vtx_passthrough_solution",
+    "parameter_values": {},
+    "expected_uplink": "none",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "articulated_sequencer_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_mavlink",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "balance_stabilizer_solution",
+    "parameter_values": {},
+    "expected_uplink": "esp_now",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "climbing_controller_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_mavlink",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "direct_control_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_crtp",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "direct_control_telemetry_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_crtp",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "direct_control_video_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_crtp",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "dual_mcu_car_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_crtp",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "elrs_crsf_brushed_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "elrs_crsf_brushless_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "elrs_crsf_dshot_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "elrs_crsf_mavlink_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "elrs_tx_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "esp_now_tx_solution",
+    "parameter_values": {},
+    "expected_uplink": "esp_now",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "fixedwing_stabilizer_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "heli_stabilizer_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "hopping_ballistic_solution",
+    "parameter_values": {},
+    "expected_uplink": "esp_now",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "legged_controller_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_mavlink",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "lta_slow_actuator_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "marine_surface_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "mavlink_groundstation_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_mavlink",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "mcu_sbc_bridge_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "mecanum_control_solution",
+    "parameter_values": {},
+    "expected_uplink": "esp_now",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "modular_dynamic_solution",
+    "parameter_values": {},
+    "expected_uplink": "esp_now",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "phone_bridge_crsf_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "quad_stabilizer_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "receiver_direct_drive_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "remote_control_tx_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_80211lr",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "rov_thruster_allocation_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_mavlink",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "sbus_passthrough_solution",
+    "parameter_values": {},
+    "expected_uplink": "sbus",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "video_board_sbc_companion_solution",
+    "parameter_values": {},
+    "expected_uplink": "none",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "video_board_solution",
+    "parameter_values": {},
+    "expected_uplink": "none",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "vtol_transition_solution",
+    "parameter_values": {},
+    "expected_uplink": "crsf",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "web_ui_groundstation_solution",
+    "parameter_values": {},
+    "expected_uplink": "wifi_mavlink",
+    "note": "baseline \u2014 empty parameter_values; expected = sol.control_uplink"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "esp_now"
+    },
+    "expected_uplink": "esp_now",
+    "note": "phone_bridge with vehicle_side_protocol=esp_now"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "wifi_mesh"
+    },
+    "expected_uplink": "wifi_mesh",
+    "note": "phone_bridge with vehicle_side_protocol=wifi_mesh"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "wifi_80211lr"
+    },
+    "expected_uplink": "wifi_80211lr",
+    "note": "phone_bridge with vehicle_side_protocol=wifi_80211lr"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "ble_mesh"
+    },
+    "expected_uplink": "ble_mesh",
+    "note": "phone_bridge with vehicle_side_protocol=ble_mesh"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "crsf"
+    },
+    "expected_uplink": "crsf",
+    "note": "phone_bridge with vehicle_side_protocol=crsf"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "sbus"
+    },
+    "expected_uplink": "sbus",
+    "note": "phone_bridge with vehicle_side_protocol=sbus"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "wifi_mavlink"
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "phone_bridge with vehicle_side_protocol=wifi_mavlink"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "wifi_crtp"
+    },
+    "expected_uplink": "wifi_crtp",
+    "note": "phone_bridge with vehicle_side_protocol=wifi_crtp"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "ble_gatt"
+    },
+    "expected_uplink": "ble_gatt",
+    "note": "phone_bridge with vehicle_side_protocol=ble_gatt"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "usb_cdc"
+    },
+    "expected_uplink": "usb_cdc",
+    "note": "phone_bridge with vehicle_side_protocol=usb_cdc"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {
+      "vehicle_side_protocol": "none"
+    },
+    "expected_uplink": "none",
+    "note": "phone_bridge with vehicle_side_protocol=none"
+  },
+  {
+    "solution_id": "phone_bridge_solution",
+    "parameter_values": {},
+    "expected_uplink": null,
+    "note": "phone_bridge with no vehicle_side_protocol \u2192 None (parameterized fallthrough)"
+  },
+  {
+    "solution_id": "direct_control_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_crtp",
+    "note": "direct_control_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "quad_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "quad_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "balance_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "balance_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "marine_surface_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "marine_surface_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "legged_controller_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "legged_controller_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "articulated_sequencer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "articulated_sequencer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "amphibious_transition_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "amphibious_transition_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "hopping_ballistic_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "hopping_ballistic_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "video_board_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "video_board_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "analog_vtx_passthrough_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "analog_vtx_passthrough_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "direct_control_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_crtp",
+    "note": "direct_control_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "quad_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "quad_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "balance_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "balance_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "marine_surface_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "marine_surface_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "legged_controller_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "legged_controller_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "articulated_sequencer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "articulated_sequencer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "amphibious_transition_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "amphibious_transition_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "hopping_ballistic_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "hopping_ballistic_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "video_board_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "video_board_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "analog_vtx_passthrough_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "analog_vtx_passthrough_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "direct_control_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_crtp",
+    "note": "direct_control_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "quad_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "quad_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "balance_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "balance_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "marine_surface_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "marine_surface_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "legged_controller_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "legged_controller_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "articulated_sequencer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "articulated_sequencer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "amphibious_transition_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "amphibious_transition_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "hopping_ballistic_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "hopping_ballistic_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "video_board_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "video_board_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "analog_vtx_passthrough_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "analog_vtx_passthrough_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "direct_control_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_crtp",
+    "note": "direct_control_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "quad_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "quad_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "balance_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "balance_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "marine_surface_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "marine_surface_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "legged_controller_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "legged_controller_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "articulated_sequencer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "articulated_sequencer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "amphibious_transition_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "amphibious_transition_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "hopping_ballistic_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "hopping_ballistic_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "video_board_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "video_board_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "analog_vtx_passthrough_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "analog_vtx_passthrough_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "direct_control_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_crtp",
+    "note": "direct_control_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "quad_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "quad_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "balance_stabilizer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "balance_stabilizer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "marine_surface_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "marine_surface_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "legged_controller_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "legged_controller_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "articulated_sequencer_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "wifi_mavlink",
+    "note": "articulated_sequencer_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "amphibious_transition_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "crsf",
+    "note": "amphibious_transition_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "hopping_ballistic_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "esp_now",
+    "note": "hopping_ballistic_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "video_board_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "video_board_solution with irrelevant params; uplink unchanged"
+  },
+  {
+    "solution_id": "analog_vtx_passthrough_solution",
+    "parameter_values": {
+      "wifi_ssid": "test",
+      "telemetry_rate_hz": 4
+    },
+    "expected_uplink": "none",
+    "note": "analog_vtx_passthrough_solution with irrelevant params; uplink unchanged"
+  }
+]

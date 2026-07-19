@@ -1,0 +1,302 @@
+[
+  {
+    "id": "quad_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 0",
+    "case": "legacy_00"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 1",
+    "case": "legacy_01"
+  },
+  {
+    "id": "direct_control_solution",
+    "implementation_family": "px4",
+    "label": "Test 2",
+    "case": "legacy_02"
+  },
+  {
+    "id": "marine_surface_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 3",
+    "case": "legacy_03"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "implementation_family": "custom",
+    "label": "Test 4",
+    "case": "legacy_04"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 5",
+    "case": "legacy_05"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 6",
+    "case": "legacy_06"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "implementation_family": "px4",
+    "label": "Test 7",
+    "case": "legacy_07"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 8",
+    "case": "legacy_08"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "implementation_family": "custom",
+    "label": "Test 9",
+    "case": "legacy_09"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 10",
+    "case": "legacy_10"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 11",
+    "case": "legacy_11"
+  },
+  {
+    "id": "direct_control_solution",
+    "implementation_family": "px4",
+    "label": "Test 12",
+    "case": "legacy_12"
+  },
+  {
+    "id": "marine_surface_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 13",
+    "case": "legacy_13"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "implementation_family": "custom",
+    "label": "Test 14",
+    "case": "legacy_14"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 15",
+    "case": "legacy_15"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 16",
+    "case": "legacy_16"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "implementation_family": "px4",
+    "label": "Test 17",
+    "case": "legacy_17"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 18",
+    "case": "legacy_18"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "implementation_family": "custom",
+    "label": "Test 19",
+    "case": "legacy_19"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 20",
+    "case": "legacy_20"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 21",
+    "case": "legacy_21"
+  },
+  {
+    "id": "direct_control_solution",
+    "implementation_family": "px4",
+    "label": "Test 22",
+    "case": "legacy_22"
+  },
+  {
+    "id": "marine_surface_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 23",
+    "case": "legacy_23"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "implementation_family": "custom",
+    "label": "Test 24",
+    "case": "legacy_24"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 25",
+    "case": "legacy_25"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 26",
+    "case": "legacy_26"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "implementation_family": "px4",
+    "label": "Test 27",
+    "case": "legacy_27"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 28",
+    "case": "legacy_28"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "implementation_family": "custom",
+    "label": "Test 29",
+    "case": "legacy_29"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 30",
+    "case": "legacy_30"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 31",
+    "case": "legacy_31"
+  },
+  {
+    "id": "direct_control_solution",
+    "implementation_family": "px4",
+    "label": "Test 32",
+    "case": "legacy_32"
+  },
+  {
+    "id": "marine_surface_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 33",
+    "case": "legacy_33"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "implementation_family": "custom",
+    "label": "Test 34",
+    "case": "legacy_34"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 35",
+    "case": "legacy_35"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 36",
+    "case": "legacy_36"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "implementation_family": "px4",
+    "label": "Test 37",
+    "case": "legacy_37"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 38",
+    "case": "legacy_38"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "implementation_family": "custom",
+    "label": "Test 39",
+    "case": "legacy_39"
+  },
+  {
+    "id": "quad_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 40",
+    "case": "legacy_40"
+  },
+  {
+    "id": "elrs_crsf_brushed_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 41",
+    "case": "legacy_41"
+  },
+  {
+    "id": "direct_control_solution",
+    "implementation_family": "px4",
+    "label": "Test 42",
+    "case": "legacy_42"
+  },
+  {
+    "id": "marine_surface_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 43",
+    "case": "legacy_43"
+  },
+  {
+    "id": "fixedwing_stabilizer_solution",
+    "implementation_family": "custom",
+    "label": "Test 44",
+    "case": "legacy_44"
+  },
+  {
+    "id": "heli_stabilizer_solution",
+    "implementation_family": "betaflight",
+    "label": "Test 45",
+    "case": "legacy_45"
+  },
+  {
+    "id": "agri_tool_dispatch_solution",
+    "implementation_family": "ardupilot",
+    "label": "Test 46",
+    "case": "legacy_46"
+  },
+  {
+    "id": "balance_stabilizer_solution",
+    "implementation_family": "px4",
+    "label": "Test 47",
+    "case": "legacy_47"
+  },
+  {
+    "id": "mecanum_control_solution",
+    "implementation_family": "esp_drone",
+    "label": "Test 48",
+    "case": "legacy_48"
+  },
+  {
+    "id": "modular_dynamic_solution",
+    "implementation_family": "custom",
+    "label": "Test 49",
+    "case": "legacy_49"
+  }
+]

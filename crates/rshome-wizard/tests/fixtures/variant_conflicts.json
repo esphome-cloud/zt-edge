@@ -1,0 +1,838 @@
+[
+  {
+    "case": "conflict_00",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_01",
+    "active_flags": [
+      "USE_I2C",
+      "USE_DSHOT",
+      "USE_API",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_02",
+    "active_flags": [
+      "USE_OTA",
+      "USE_WIFI",
+      "USE_MQTT",
+      "USE_BDSHOT",
+      "USE_I2C",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_03",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_WIFI",
+      "USE_DSHOT",
+      "USE_API",
+      "USE_MQTT",
+      "USE_OTA"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_04",
+    "active_flags": [
+      "USE_API",
+      "USE_I2C",
+      "USE_DSHOT",
+      "USE_LOGGER",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_05",
+    "active_flags": [
+      "USE_LOGGER",
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_WIFI",
+      "USE_OTA"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_06",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_MQTT",
+      "USE_LOGGER",
+      "USE_I2C",
+      "USE_WIFI"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_07",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_08",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_LOGGER",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_09",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_10",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_MQTT",
+      "USE_LOGGER",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_11",
+    "active_flags": [
+      "USE_I2C",
+      "USE_DSHOT",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_12",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_OTA",
+      "USE_I2C",
+      "USE_WIFI",
+      "USE_API"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_13",
+    "active_flags": [
+      "USE_API",
+      "USE_WIFI",
+      "USE_BDSHOT",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_14",
+    "active_flags": [
+      "USE_API",
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_WIFI"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_15",
+    "active_flags": [
+      "USE_API",
+      "USE_MQTT",
+      "USE_DSHOT",
+      "USE_BDSHOT",
+      "USE_I2C"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_16",
+    "active_flags": [
+      "USE_I2C",
+      "USE_MQTT",
+      "USE_DSHOT",
+      "USE_OTA",
+      "USE_API",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_17",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_18",
+    "active_flags": [
+      "USE_I2C",
+      "USE_DSHOT",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_19",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_OTA",
+      "USE_MQTT",
+      "USE_I2C"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_20",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_21",
+    "active_flags": [
+      "USE_WIFI",
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_LOGGER"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_22",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_23",
+    "active_flags": [
+      "USE_LOGGER",
+      "USE_OTA",
+      "USE_DSHOT",
+      "USE_BDSHOT",
+      "USE_WIFI",
+      "USE_API"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_24",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT",
+      "USE_OTA"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_25",
+    "active_flags": [
+      "USE_MQTT",
+      "USE_WIFI",
+      "USE_DSHOT",
+      "USE_BDSHOT",
+      "USE_OTA",
+      "USE_LOGGER"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_26",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_I2C",
+      "USE_WIFI",
+      "USE_OTA",
+      "USE_BDSHOT",
+      "USE_MQTT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_27",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_LOGGER",
+      "USE_WIFI",
+      "USE_API",
+      "USE_BDSHOT",
+      "USE_MQTT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_28",
+    "active_flags": [
+      "USE_OTA",
+      "USE_MQTT",
+      "USE_DSHOT",
+      "USE_WIFI",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "conflict_29",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [
+      {
+        "group": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ],
+        "present": [
+          "USE_DSHOT",
+          "USE_BDSHOT"
+        ]
+      }
+    ],
+    "note": "both motor-backend flags simultaneously active"
+  },
+  {
+    "case": "dshot_only",
+    "active_flags": [
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "bdshot_only",
+    "active_flags": [
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "pwm_default",
+    "active_flags": [],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "dshot_with_unrelated",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_WIFI"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "bdshot_with_unrelated",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_API"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "pwm_with_lots_of_unrelated",
+    "active_flags": [
+      "USE_WIFI",
+      "USE_API",
+      "USE_LOGGER",
+      "USE_MQTT"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "empty_flags",
+    "active_flags": [],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "only_unrelated",
+    "active_flags": [
+      "USE_OTA"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "dshot_first_in_list",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_LOGGER"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "bdshot_last_in_list",
+    "active_flags": [
+      "USE_LOGGER",
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "at most one motor-backend flag \u2014 no conflict"
+  },
+  {
+    "case": "clean_random_00",
+    "active_flags": [
+      "USE_WIFI"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_01",
+    "active_flags": [
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_02",
+    "active_flags": [
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_03",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_WIFI",
+      "USE_API"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_04",
+    "active_flags": [
+      "USE_BDSHOT",
+      "USE_API",
+      "USE_OTA",
+      "USE_LOGGER"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_05",
+    "active_flags": [
+      "USE_API",
+      "USE_MQTT",
+      "USE_OTA"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_06",
+    "active_flags": [
+      "USE_DSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_07",
+    "active_flags": [
+      "USE_DSHOT",
+      "USE_LOGGER",
+      "USE_MQTT",
+      "USE_API"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_08",
+    "active_flags": [
+      "USE_BDSHOT"
+    ],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  },
+  {
+    "case": "clean_random_09",
+    "active_flags": [],
+    "expected_conflicts": [],
+    "note": "random clean fixture"
+  }
+]
